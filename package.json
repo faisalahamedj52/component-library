@@ -1,8 +1,13 @@
 {
-  "name": "componentdesign",
+  "name": "@faisal-component-deisgn",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "dist/main.ts",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc && vite build",
     "lint": "eslint .",
